@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rally</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulação de um Rally</h1>
+    </header>
+    <main>
+        <h2>Aperte no Botão de cada corrida, para saber quem vai ganhar</h2>
+        <div id="buttons">
+            <button type="button" onclick="corridaRapida();">Corrida Rápida</button>
+            <button type="button" onclick="grandePremio();">Grande Prêmio</button>
+            <button type="button" onclick="enduro();">Enduro</button>
+        </div>
+        
+        <div id="resultados">
+
+        </div>
+    </main>
+    <script src="rally.js" defer></script>
+</body>
+</html>
